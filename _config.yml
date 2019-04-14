@@ -2,19 +2,27 @@
 ##Source: https://github.com/AlexRanzh/blog.git
 
 # Site
-title: Rzh's note
-subtitle: 
-description: personal website
+title: Alex Zihuan Ran
+subtitle:
+description: I'm Alex Ran, 冉梓欢.
 author: alexranzh
 language:
 timezone: Japan
 
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:AlexRanzh/AlexRanzh.github.io.git
+  branch: master
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://alexranzh.github.io/blog
-root: /blog/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# url: https://alexranzh.github.io/blog
+# root: /blog/
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
 
 # Directory
 source_dir: source
@@ -41,7 +49,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -50,7 +58,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -69,12 +77,6 @@ per_page: 10
 pagination_dir: page
 
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:alexranzh/alexranzh.github.io.git
-  branch: master
 
 
 
